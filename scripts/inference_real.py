@@ -108,7 +108,7 @@ def main(opts):
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
     # NOTE load e4e
-    checkpoint_path = "/hd2/lvyueming/lym_code/text-driven/encoder4editing-main/e4e_ffhq_encode.pt"
+    checkpoint_path = "encoder4editing-main/e4e_ffhq_encode.pt"
     ckpt_enc = torch.load(checkpoint_path, map_location='cpu') #dict_keys(['state_dict', 'latent_avg', 'opts'])
     encoder = psp_encoders.Encoder4Editing(50, 1024, 'ir_se')
     encoder.load_state_dict(get_keys(ckpt_enc, 'encoder'), strict=True)
