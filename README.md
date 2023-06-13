@@ -89,6 +89,7 @@ To produce editing results please run the following commands :
 
 ```python
 CUDA_VISIBLE_DEVICES=1 python scripts/inference_real.py --target "chubby face","face with eyeglasses","face with smile","face with pale skin","face with tanned skin","face with big eyes","face with black clothes","face with blue suit","happy face","face with bangs","face with red hair","face with black hair","face with blond hair","face with curly hair","face with receding hairline","face with bowlcut hairstyle"
+```
 ## Results
 
 ![results](./results.jpg)
@@ -96,3 +97,14 @@ CUDA_VISIBLE_DEVICES=1 python scripts/inference_real.py --target "chubby face","
 ## Acknowledgements
 
 This code is developed based on the code of [orpatashnik/StyleCLIP](https://github.com/orpatashnik/StyleCLIP) by Or Patashnik et al.
+
+## Citation
+If you use this code for your research, please cite our paper:
+```
+@InProceedings{lyu2023deltaedit,
+    author    = {Lyu, Yueming and Lin, Tianwei and Li, Fu and He, Dongliang and Dong, Jing and Tan, Tieniu},
+    title     = {DeltaEdit: Exploring Text-free Training for Text-Driven Image Manipulation},
+    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2023},
+}
+```
