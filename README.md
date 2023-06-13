@@ -77,6 +77,18 @@ The produced results are showed in the following.
 
 You can also specify your desired target attributes to the flag of `--target`.
 
+## Inference for real images
+
+- The main inferece script is placed in `./scripts/inference_real.py`.
+- Inference arguments can be found at `./options/test_options.py`. 
+- Download the pretrained DeltaMapper model for editing human face from [here](https://drive.google.com/file/d/1Mb2WiELoVDPDIi24tIfoWsjn1l2xTjtZ/view?usp=sharing), and then place it into the folder `./checkpoints` .
+- Download the pretrained e4e encoder e4e_ffhq_encode.pt from [e4e](https://github.com/omertov/encoder4editing).
+- One test image is provided in  `./test_imgs`.
+
+To produce editing results please run the following commands :
+
+```python
+CUDA_VISIBLE_DEVICES=1 python scripts/inference_real.py --target "chubby face","face with eyeglasses","face with smile","face with pale skin","face with tanned skin","face with big eyes","face with black clothes","face with blue suit","happy face","face with bangs","face with red hair","face with black hair","face with blond hair","face with curly hair","face with receding hairline","face with bowlcut hairstyle"
 ## Results
 
 ![results](./results.jpg)
