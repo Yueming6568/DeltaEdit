@@ -6,13 +6,17 @@ This repository contains the **offical** PyTorch implementation of paper:
 
 *DeltaEdit: Exploring Text-free Training for Text-driven Image Manipulation*, CVPR 2023
 
+*DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing*, Arxiv 2023
+
 ## News
+
+- [2025-06-22] Upload t-SNE Code for Alignment Validation​ (◍＞◡＜◍).
 
 - [2023-03-11] Upload the training and inference code for the facial domain (◍•ڡ•◍).
 
 *To be continued...*
 
-We will release the training and inference code for the LSUN cat, church, horse later : )
+<!-- We will release the training and inference code for the LSUN cat, church, horse later : ) -->
 
 ## Dependences
 
@@ -90,6 +94,15 @@ To produce editing results please run the following commands :
 ```python
 CUDA_VISIBLE_DEVICES=1 python scripts/inference_real.py --target "chubby face","face with eyeglasses","face with smile","face with pale skin","face with tanned skin","face with big eyes","face with black clothes","face with blue suit","happy face","face with bangs","face with red hair","face with black hair","face with blond hair","face with curly hair","face with receding hairline","face with bowlcut hairstyle"
 ```
+
+## Alignment Validation: CLIP Space vs. DeltaSpace via t-SNE Visualization​
+
+```python
+cd tSNE
+python compute_tsne.py
+```
+
+
 ## Results
 
 ![results](./results.jpg)
@@ -105,6 +118,13 @@ If you use this code for your research, please cite our paper:
     author    = {Lyu, Yueming and Lin, Tianwei and Li, Fu and He, Dongliang and Dong, Jing and Tan, Tieniu},
     title     = {DeltaEdit: Exploring Text-free Training for Text-Driven Image Manipulation},
     booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2023},
+}
+
+@article{lyu2023deltaspace,
+    author    = {Lyu, Yueming and Zhao, Kang and Peng, Bo and Jiang, Yue and Zhang, Yingya and Dong, Jing},
+    title     = {DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing},
+    journal   = {arXiv preprint arXiv:2310.08785},
     year      = {2023},
 }
 ```
