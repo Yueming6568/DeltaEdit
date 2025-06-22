@@ -102,9 +102,9 @@ cd tSNE
 python compute_tsne.py
 ```
 
-After executing the implementation code, you can obtain A 2D t-SNE projection of embeddings from both spaces (e.g., CLIP and DeltaSpace).
+After executing the implementation code, you can obtain A 2D t-SNE projection of embeddings from both spaces (e.g., CLIP and DeltaSpace). The results are shown below for your convenience.
 
-![tsne](./tsne.pdf)
+![tsne](./tsne.jpg)
 
 ## Results
 
