@@ -1,10 +1,10 @@
-# DeltaEdit: Exploring Text-free Training for Text-driven Image Manipulation
+# DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing
 
 ## Overview
 
 This repository contains the **offical** PyTorch implementation of paper:
 
-*DeltaEdit: Exploring Text-free Training for Text-driven Image Manipulation*, CVPR 2023
+<!-- *DeltaEdit: Exploring Text-free Training for Text-driven Image Manipulation*, CVPR 2023 -->
 
 *DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing*, Arxiv 2023
 
@@ -116,16 +116,16 @@ This code is developed based on the code of [orpatashnik/StyleCLIP](https://gith
 
 ## Citation
 If you use this code for your research, please cite our paper:
-```
+<!-- ```
 @InProceedings{lyu2023deltaedit,
     author    = {Lyu, Yueming and Lin, Tianwei and Li, Fu and He, Dongliang and Dong, Jing and Tan, Tieniu},
     title     = {DeltaEdit: Exploring Text-free Training for Text-Driven Image Manipulation},
     booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
     year      = {2023},
-}
+} -->
 
 @article{lyu2023deltaspace,
-    author    = {Lyu, Yueming and Zhao, Kang and Peng, Bo and Jiang, Yue and Zhang, Yingya and Dong, Jing},
+    author    = {Lyu, Yueming and Zhao, Kang and Peng, Bo and Chen, Huafeng and Jiang, Yue and Zhang, Yingya and Dong, Jing, and Shan Caifeng},
     title     = {DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing},
     journal   = {arXiv preprint arXiv:2310.08785},
     year      = {2023},
