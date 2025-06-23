@@ -123,7 +123,7 @@ If you use this code for your research, please cite our paper:
     booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
     year      = {2023},
 } -->
-
+```
 @article{lyu2023deltaspace,
     author    = {Lyu, Yueming and Zhao, Kang and Peng, Bo and Chen, Huafeng and Jiang, Yue and Zhang, Yingya and Dong, Jing, and Shan Caifeng},
     title     = {DeltaSpace: A Semantic-aligned Feature Space for Flexible Text-guided Image Editing},
